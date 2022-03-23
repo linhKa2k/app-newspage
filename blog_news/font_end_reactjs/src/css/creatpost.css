@@ -1,0 +1,313 @@
+.creat-post-container{
+    width: auto;
+    height: auto;
+    /* margin: 70px 100px 100px 100px; */
+    /* background-color: lawngreen; */
+}
+::-webkit-file-upload-button {
+    cursor: pointer;
+    background: #02234c;
+    border-radius: 7px;
+    color: rgb(250, 250, 250);
+    border: none;
+    padding: 4px 10px;
+  }
+.creat-post-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 30px 0px;
+    margin: 0px 100px;
+}
+.notifi-post{
+    width: 550px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.title-notifi-post{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.msg-post{
+    text-align: center;
+    color: rgb(129, 129, 129);
+}
+.btn-success-post{
+    width: 100%;
+    background-color: #ff8635;
+    border-radius: 0px;
+    border: none;
+}
+.title-notifi-post h2{
+    margin-top: 15px;
+}
+
+p{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+h5{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+h6{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+
+.container-body{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-creat-post{
+    width: 1300px;
+    display: flex;
+}
+.input-creat-post-left{
+    width: 400px;
+}
+.input-creat-post-right{
+    margin-left: 65px;
+    width: 835px;
+}
+.field{
+    margin-top: 5px;
+    width: 380px;
+    height: auto;
+}
+.field-content{
+    margin-top: 5px;
+    width: 900px;
+    height: auto;
+}
+.input-field-quill{
+    width: 835px;
+}
+.input-title-creatpost{
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 4px 10px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(187, 187, 187);
+    
+}
+.input-title-creatpost:focus{
+    outline: 0;
+    background-color: transparent;
+    
+}
+.input-desc-creatpost{
+    border-radius: 5px;
+    padding: 4px 10px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    height: auto;
+    background-color: transparent;
+    border: 2px solid rgb(146, 146, 146);
+}
+.input-desc-creatpost:focus{
+    outline: 0;
+}
+.lable-item{
+    padding: 9px 0px;
+    width: 150px;
+}
+.ql-editor .ql-video {
+    max-width: 800px;
+    width: 800px;
+    height: 400px;
+}
+.react-quill-form .ql-editor{
+    font-family: 'Josefin Sans', sans-serif !important;
+    min-height: 310px;
+}
+.img-avatar-post{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.choose-image-post{
+    background-color: #ff8635;
+    padding: 4px 7px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+.loading-img-post{
+    position: absolute;
+    margin-top: 10px;
+	width: 380px;
+	height: 50px;
+	text-align: center;
+	z-index: 100;
+	background: url("../access/animationloading.gif") 50% 50% no-repeat rgba(0, 0, 0, 0);
+}
+.input-choose-img{
+    display: none;
+}
+.lable-item p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.input-error{
+    width: 80%;
+    margin: 0;
+    color: rgba(253, 2, 2, 0.904);
+}
+.notifi{
+    width: 100%;
+    display: flex;
+    margin-top: 3px;
+}
+.text-length{
+    width: 20%;
+    text-align: end;
+}
+.select-category{
+    border: 2px solid rgb(146, 146, 146);
+}
+.ql-toolbar{
+    background-color: rgb(192, 192, 192);
+}
+.btn-create-post{
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    border-radius: 7px;
+    background-color: #ff8635;
+    border: none;
+}
+.icon-creat-post{
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 5px;
+}
+@media (max-width: 1023px) {
+    .container-body{
+        position: relative;
+        width: 800px;
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .form-creat-post {
+        width: 100%;
+        display: inline-block;
+    }
+    .input-creat-post-left {
+        width: 100%;
+    }
+    .field {
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+    }
+    .input-creat-post-right{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .input-field-quill {
+        width: 100%;
+    }
+    .field-content {
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+    }
+    .loading-img-post{
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        z-index: 100;
+        background: url("../access/animationloading.gif") 50% 50% no-repeat rgba(0, 0, 0, 0);
+    }
+    .btn-create-post{
+        position: absolute;
+        right: 10px;
+        margin-top: 15px;
+        border-radius: 7px;
+        background-color: #ff8635;
+        border: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-body{
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .form-creat-post {
+        width: 100%;
+        display: inline-block;
+    }
+    .input-creat-post-left {
+        width: 100%;
+    }
+    .field {
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+    }
+    .input-creat-post-right{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .input-field-quill {
+        width: 100%;
+    }
+    .field-content {
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+    }
+    .loading-img-post{
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        z-index: 100;
+        background: url("../access/animationloading.gif") 50% 50% no-repeat rgba(0, 0, 0, 0);
+    }
+    .notifi-post{
+        width: 90%  ;
+        height: auto;
+        padding: 20px 10px;
+        background-color: rgb(255, 255, 255);
+    }
+}

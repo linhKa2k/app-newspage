@@ -1,0 +1,172 @@
+.post-manager-container{
+    width: 100%;
+    height: 100%;
+}
+.loader-post-manager{
+    position: absolute;
+	width: 1100px;
+	height: 60px;
+	text-align: center;
+	background: url("../access/animationloading.gif") 50% 50% no-repeat rgb(255, 255, 255);
+}
+.no-post-manager{
+    margin: 0 auto;
+}
+.no-post-manager p{
+    font-size: 25px;
+    color: rgb(179, 179, 179);
+}
+.model-ask-delete-post-manager{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+.title-del-post-manager{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+.content-del-post-manager{
+    text-align: center;
+    color: rgb(71, 71, 71);
+}
+.option-del-post-manager button{
+    width: 45%;
+    margin: 0px 10px;
+    background-color: #ff8635;
+    border: none;
+    border-radius: 0px;
+}
+.option-del-post-manager{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.list-post-manager{
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-manager-item{
+    width: 324px;
+    height: auto;
+    margin: 20px 20px;
+    padding: 5px 5px 60px 5px;
+    border-radius: 4px;
+    background-color: #dbdbdb;
+    position: relative;
+}
+.option-post-manager-item{
+    margin-top: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+}
+.option-post-manager-item button{
+    width: 46%;
+    margin: 0px 4px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(0, 17, 77);
+}
+.model-detail-post-manager{
+    width: 900px;
+    height: 97%;
+    display: flex;
+}
+.post-detail-model-manager{
+    background-color: white;
+    width: 900px;
+    height: 100%;
+    overflow-y: auto;
+}
+.close-model-post-detail{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.img-post-manager{
+    width: 314px;
+    height: 200px;
+}
+.img-post-manager img{
+    width: 100%;
+    height: 100%;
+}
+.title-post-manager{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 5px 0px 15px 0px;
+}
+.poster-postmanager{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+.poster-postmanager b{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+.bro-postmanager b{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+.bro-postmanager{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    font-size: 14px;
+
+}
+.filter-post-manager{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.filter-post-manager p{
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 17px;
+}
+.title-filter{
+    margin: 2px;
+}
+.select-filter-post-manager{
+    outline: none;
+    margin-left: 20px;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #868686;
+}
+.select-filter-time-post-manager{
+    outline: none;
+    margin-left: 20px;
+    width: 130px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #868686;
+}
+.name-cpn{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/* post-deleted */
+
+.option-post-deleted-item{
+    margin-top: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+}
+.option-post-deleted-item button{
+    width: 46%;
+    margin: 0px 4px;
+    border-radius: 0px;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 17, 77);
+}

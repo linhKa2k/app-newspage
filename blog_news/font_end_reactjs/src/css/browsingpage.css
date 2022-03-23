@@ -1,0 +1,446 @@
+
+  .browsing-page{
+    position: relative;
+    width: 100%;
+    /* height: 91.5vh; */
+    min-height: 700px;
+    margin: 0;
+  }
+.detail-post-browsing-page{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(10, 10, 10, 0.514);
+}
+.ask-brosing{
+    width: 500px;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.ask-unbrosing{
+    width: 500px;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.ask-unbrosing p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.notifi-brosing{
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+.choose-radio{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: 20px;
+}
+.choose-radio input{
+    width: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    text-align: start;
+}
+.input-option{
+    width: 90%;
+    margin: 5px 20px;
+    outline: none;
+    padding: 10px;
+}
+.choose-radio label{
+    width: 100%;
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgb(85, 85, 85);
+    font-family: 'Josefin Sans', sans-serif;
+    height: auto;
+    text-align: start;
+}
+.ask-brosing p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.btn-brosing-model{
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+
+}
+.btn-brosing-model button{
+    width: 45%;
+    margin: 0px 10px;
+    border-radius: 0px;
+    background-color: #ff8635;
+    border: none;
+    
+}
+.detail .ql-editor img{
+    width: 100%;
+}
+.model{
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    animation: showmodel 0.4s alternate;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    overflow-y: scroll;
+}
+/* .content-post-brosing{
+    width: 100%;
+    height: 800px;
+    overflow-y: scroll;
+} */
+/* .model::-webkit-scrollbar { 
+    display: none; 
+} */
+.detail{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+
+}
+.detail h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+}
+.close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3px;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    z-index: 1000;
+}
+.ic-close-btn{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+@keyframes showmodel {
+	0%{
+        transform: translateY(-100%);
+
+	}	
+	100% {
+        transform: translateY(0%);
+
+	}
+}
+.container-browsing-page{
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 30px;
+}
+.no-post-browsing{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(146, 146, 146);
+    text-align: center;
+    font-size: 30px;
+}
+.unap-title-filter{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+.unap-title{
+    width: 100%;
+    text-align: start;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.list-browsing-page{
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+    padding-bottom: 20px;
+}
+.list-item-browsing-page{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.filter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.select-filter{
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.filter-category{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.img-item-browsing-page{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+.img-item-browsing-page img{
+    width: 100%;
+    height: 100%;
+}
+.infor-item-browsing-page{
+    width: 1000px;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+.infor-item-browsing-page h3{
+    font-size: 19px;
+    text-align: start;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0;
+
+}
+.infor-item-browsing-page p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+.browse-and-view-details{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.browse-and-view-details button{
+    background-color: #ff8635;
+    border-radius: 0px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+}
+.loading-post-browsing{
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    opacity: 0.9;
+    background: url("../access/animationloading.gif") 50% 50% no-repeat rgba(250, 250, 250, 0);
+}
+
+@media (max-width: 1023px) {
+    
+  .browsing-page{
+    position: relative;
+    width: 100%;
+    min-height: 750px;
+    margin: 0;
+  }
+  .container-browsing-page{
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 30px;
+}
+.model{
+    width: 800px;
+    height: 90%;
+    margin: 0 auto;
+    animation: showmodel 0.4s alternate;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    overflow-y: scroll;
+}
+.img-item-browsing-page{
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+}
+.img-item-browsing-page img{
+    width: 100%;
+    height: 100%;
+}
+.infor-item-browsing-page{
+    width: 850px;
+    height: 100%;
+    padding: 0px 10px;
+    margin: 0;
+    position: relative;
+}
+.infor-item-browsing-page h3{
+    font-size: 19px;
+    text-align: start;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0;
+
+}
+.browse-and-view-details{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.browse-and-view-details button{
+    background-color: #ff8635;
+    border-radius: 0px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+}
+
+}
+
+@media (max-width: 500px) {
+    
+    .browsing-page{
+      position: relative;
+      width: 100%;
+      min-height: 750px;
+      margin: 0;
+      padding: 10px;
+    }
+    .container-browsing-page{
+      width: 100%;
+      margin: 0 auto;
+      height: 100%;
+      padding-top: 30px;
+  }
+  .unap-title-filter{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #000;
+}
+/* .unap-title{
+    width: 100%;
+    text-align: start;
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+.unap-title{
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+.filter{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 50px;
+    justify-content: start;
+}
+.select-filter{
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.filter-category{
+   display: none;
+}
+.list-item-browsing-page{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.img-item-browsing-page{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.img-item-browsing-page img{
+    width: 100%;
+    height: 100%;
+}
+.infor-item-browsing-page{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+.browse-and-view-details{
+    position: relative;
+}
+.browse-and-view-details button{
+    background-color: #ff8635;
+    border-radius: 0px;
+    margin: 10px 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 17px;
+    border: none;
+}
+.model {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    animation: showmodel 0.4s alternate;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    overflow-y: scroll;
+}
+.ask-unbrosing{
+    width: 90%;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.ask-brosing{
+    width: 90%;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.btn-brosing-model{
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+
+}
+.btn-brosing-model button{
+    width: 44%;
+    margin: 0px 10px;
+    font-size: 10px;
+    border-radius: 0px;
+    background-color: #ff8635;
+    border: none;
+    
+}
+}
